@@ -1,0 +1,16 @@
+# Python virtualenv -- created and managed by uv, not shared/portable.
+.venv/
+
+# STL-10 -- downloaded via torchvision, not committed (5GB+).
+data/
+
+# Pretrained checkpoints -- large binaries, regenerated via kaggle/ or colab/.
+# The label-efficiency results (small JSON, the actual finding) ARE tracked.
+results/*.pt
+
+# Python bytecode / test caches.
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.DS_Store

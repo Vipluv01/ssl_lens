@@ -1,0 +1,83 @@
+[
+  {
+    "fraction": 0.01,
+    "n_train_examples": 50,
+    "linear_probe_acc": 0.33225,
+    "knn_acc": 0.296875,
+    "fine_tune_pretrained_acc": 0.181,
+    "fine_tune_random_init_acc": 0.216875,
+    "seed": 0
+  },
+  {
+    "fraction": 0.1,
+    "n_train_examples": 500,
+    "linear_probe_acc": 0.46975,
+    "knn_acc": 0.35875,
+    "fine_tune_pretrained_acc": 0.295625,
+    "fine_tune_random_init_acc": 0.356375,
+    "seed": 0
+  },
+  {
+    "fraction": 1.0,
+    "n_train_examples": 5000,
+    "linear_probe_acc": 0.56825,
+    "knn_acc": 0.426375,
+    "fine_tune_pretrained_acc": 0.584,
+    "fine_tune_random_init_acc": 0.59875,
+    "seed": 0
+  },
+  {
+    "fraction": 0.01,
+    "n_train_examples": 50,
+    "linear_probe_acc": 0.318375,
+    "knn_acc": 0.28425,
+    "fine_tune_pretrained_acc": 0.2375,
+    "fine_tune_random_init_acc": 0.189,
+    "seed": 1
+  },
+  {
+    "fraction": 0.1,
+    "n_train_examples": 500,
+    "linear_probe_acc": 0.452875,
+    "knn_acc": 0.361375,
+    "fine_tune_pretrained_acc": 0.31775,
+    "fine_tune_random_init_acc": 0.30025,
+    "seed": 1
+  },
+  {
+    "fraction": 1.0,
+    "n_train_examples": 5000,
+    "linear_probe_acc": 0.56825,
+    "knn_acc": 0.426375,
+    "fine_tune_pretrained_acc": 0.542125,
+    "fine_tune_random_init_acc": 0.569875,
+    "seed": 1
+  },
+  {
+    "fraction": 0.01,
+    "n_train_examples": 50,
+    "linear_probe_acc": 0.324625,
+    "knn_acc": 0.294875,
+    "fine_tune_pretrained_acc": 0.217875,
+    "fine_tune_random_init_acc": 0.178875,
+    "seed": 2
+  },
+  {
+    "fraction": 0.1,
+    "n_train_examples": 500,
+    "linear_probe_acc": 0.469375,
+    "knn_acc": 0.36275,
+    "fine_tune_pretrained_acc": 0.284625,
+    "fine_tune_random_init_acc": 0.338875,
+    "seed": 2
+  },
+  {
+    "fraction": 1.0,
+    "n_train_examples": 5000,
+    "linear_probe_acc": 0.56825,
+    "knn_acc": 0.426375,
+    "fine_tune_pretrained_acc": 0.50925,
+    "fine_tune_random_init_acc": 0.6615,
+    "seed": 2
+  }
+]

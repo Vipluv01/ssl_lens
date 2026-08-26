@@ -1,0 +1,17 @@
+[project]
+name = "ssl-lens"
+version = "0.1.0"
+description = "Self-supervised pretraining (SimSiam) and label-efficiency evaluation: how many labels do you actually need if you pretrain without them first?"
+requires-python = ">=3.12"
+dependencies = ["torch", "torchvision", "numpy", "scipy", "scikit-learn", "tqdm"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
